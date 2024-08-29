@@ -1,6 +1,6 @@
-baseURL: "https://rohanpatankar.netlify.app/"
+baseURL: "https://saifmarouane.netlify.app/"
 languageCode: "en-us"
-title: "Rohan Patankar | Portfolio"
+title: "Saif Marouane | Portfolio"
 theme: "./.."
 relativeURLs: true
 
@@ -22,7 +22,7 @@ params:
   customCSS: false
 
   favicon: https://cdn2.iconfinder.com/data/icons/inclusiveness-vivid-vol-2/256/Scientist-male-512.png
-  description: "Rohan's personal portfolio"
+  description: "saif's personal portfolio"
 
   # Navbar Menus
   
@@ -32,70 +32,76 @@ params:
   profile_image: /images/profile.png
   name: "Rohan Patankar"
   namecolor: ffc107
-  profession: "Senior MLOps Engineer @ skima.ai && Lead MLOps Engineer @tarang.ai(MLx)"
-  github: "https://github.com/rohanpatankar926/"
-  linkedin: "https://www.linkedin.com/in/rohan-patankar-2aa707213/"
-  twitter: "https://twitter.com/Rohan20075428"
-  gmail: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rohanpatankar926@gmail.com"
-  instagram: "https://instagram.com/__rohan__95?utm_medium=copy_link"
+  profession: "junior data scientist software engineering "
+  github: "https://github.com/saifmarouane/"
+  linkedin: "https://www.linkedin.com/in/saif-mohamed-marouane-48a819200/"
+  twitter: "https://twitter.com/saif"
+  gmail: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mohamed.marouane.saif@gmail.com"
+  instagram: "https://instagram.com/artoartouu?utm_medium=copy_link"
   
 
   # Custom social links
   customSocialLinks:
     - fontAwesomeIconName: "fa fa-envelope"
-      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rohanpatankar926@gmail.com"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mohamed.marouane.saif@gmail.com"
       fontAwesomeIconName: "fa fa-envelope"
-      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rohanpatankar926@gmail.com"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mohamed.marouane.saif@gmail.com"
 
   # About
   disable_about: false  
-  descripe_l1_person: "Hii there! Myself **Rohan** and As an MLOps specialist,Expert ML/DL Engineer and MLOps Specialist: Leveraging Advanced Technologies for Optimal Results. With a deep passion for Machine Learning (ML), Deep Learning (DL), and MLOps, I am an accomplished engineer skilled in harnessing the power of modern web technologies to build exceptional websites. My expertise extends beyond aesthetics and functionality; I have a comprehensive understanding of ML and DL algorithms, frameworks, and techniques that enable me to create intelligent systems capable of analyzing vast amounts of data and delivering accurate predictions."
+  descripe_l1_person: "I'm **Saif** an AI engineer and web developer fluent in French, English ,and Arabic, with multiple certifications. I specialize in creating advanced AI solutions using techniques like Retrieval-Augmented Generation (RAG), AI Agents, and Prompt Chaining."
   descripe_l2_person: "### Real world capabilities"
-  descripe_l3_person: "I excel in designing and implementing robust ML infrastructure and automation pipelines. I leverage state-of-the-art tools and frameworks such as Docker, Kubernetes,git actions,Huggingface models,replicate models etc to optimize workflows, ensuring scalability and reproducibility of ML processes. My ability to seamlessly integrate ML solutions into existing systems empowers organizations to embrace the full potential of their data, gaining a competitive edge in today's rapidly evolving market.If you are seeking a skilled ML/DL engineer and MLOps expert who can deliver exceptional results, I am confident in my ability to drive your organization's success through innovative technologies and data-driven solutions. Let's collaborate and unlock the power of ML and DL for your business"
+  descripe_l3_person: "With hands-on experience in generative AI, deep learning, and machine learning, I excel at engineering prompts for model training. I can build and train models using frameworks like TensorFlow, PyTorch, Lamaindex, and Langchain, ensuring they perform at their best."
   descripe_l4_person: "*You can find my works [here](#projects)* "
 
   skills:
-    - name: Python3
+    - name: "Data preprocessing"
+            
       percentage: 80
-    - name: REST,GRPC api development
+    - name: "Data interpretation and storytelling"
       percentage: 80
-    - name: "Devops Engineering"
+    - name: "            Data visualization"
       percentage: 80
     - name: "LLm application development"
       percentage: 90
-    - name: "Golang"
+    - name: "deep learning: tenserflow,pytorch"
       percentage: 75
-    - name: "Classical Machine Learning"
+    - name: "Machine Learning"
       percentage: 80
-    - name: "Backend Engineering"
+    - name: "NLP :Transformers,NLTK, TF-IDF, KeyBert"
       percentage: 90
-    - name: "Azure,Oracle,GCP,AWS Stack"
+    - name: "Azure,Oracle,GCP,AWS"
       percentage: 70
-    - name: "Deep Learning"
+    - name: "Large language models : finetuning,RAG,prompting,langchaine, AI Agents"
       percentage: 80
-    - name: "SQL"
+    - name: "Django,Angular,flask,spring boot,nextJs"
       percentage: 80
-    - name: Mongodb
+    - name: " MySQL, Oracle, PostgreSQL, MongoDB"
       percentage: 70
-    - name: MLops Engineering
+    - name: "GITLAB,Git/GitHub"
       percentage: 70
-    - name: Vector Database
+    - name: "Scrum, 6 σ Black Belt"
       percentage: 80
 
   # Experience
   disable_experience: false
   experience:
-    - company: "Convin.ai"
-      role: ML Backend Engineer
-      startdate: "September 11 2023"
-      enddate: "Ongoing"
+    - company: "Capgemini engineering"
+      role: data scientist
+      startdate: "fabruary 2024"
+      enddate: "july 2024"
       featuredpoints:
-        - points: "Building and maintaining robust GPT application and services for the product."
-        - points: "Handling the Dev-Operations side of deploying the deep learning and clustering models into kubernetes cluster"
-    - company: "Tarang.ai(MLx)"
+            
+        - points: "Study and design of a generative AI platform:" 
+        - points: "Conduct brainstorming sessions" 
+        - points: "Develop the functional and technical architecture" 
+        - points: "Backend and frontend development of the platform" 
+        - points: "Create follow-up and monitoring reports" 
+      
+    - company: "Octo ts"
       role: "Lead MLops engineer"
-      startdate: "April 19 2023"
-      enddate: "Ongoing"
+      startdate: "june"  2023"
+      enddate: "ougost 2023"
       featuredpoints:
         - point: "As the Lead MLops Engineer at Tarang.ai(MLx) since April 19, 2023, I have been at the forefront of system development, focusing on building state-of-the-art (SOTA) ML pipelines.My expertise spans a wide range of areas, including working extensively with LLM models such as GPT and BERT models, implementing stable diffusion models, and ensuring seamless deployment of ML systems. , I am dedicated to driving innovation, operational excellence, and tangible business outcomes through ML and DL engineering coupled with MLOps practices."
 
