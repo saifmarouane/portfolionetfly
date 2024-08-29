@@ -1,0 +1,275 @@
+baseURL: "https://rohanpatankar.netlify.app/"
+languageCode: "en-us"
+title: "Rohan Patankar | Portfolio"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  favicon: https://cdn2.iconfinder.com/data/icons/inclusiveness-vivid-vol-2/256/Scientist-male-512.png
+  description: "Rohan's personal portfolio"
+
+  # Navbar Menus
+  
+
+  # home
+  disable_home: false
+  profile_image: /images/profile.png
+  name: "Rohan Patankar"
+  namecolor: ffc107
+  profession: "Senior MLOps Engineer @ skima.ai && Lead MLOps Engineer @tarang.ai(MLx)"
+  github: "https://github.com/rohanpatankar926/"
+  linkedin: "https://www.linkedin.com/in/rohan-patankar-2aa707213/"
+  twitter: "https://twitter.com/Rohan20075428"
+  gmail: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rohanpatankar926@gmail.com"
+  instagram: "https://instagram.com/__rohan__95?utm_medium=copy_link"
+  
+
+  # Custom social links
+  customSocialLinks:
+    - fontAwesomeIconName: "fa fa-envelope"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rohanpatankar926@gmail.com"
+      fontAwesomeIconName: "fa fa-envelope"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rohanpatankar926@gmail.com"
+
+  # About
+  disable_about: false  
+  descripe_l1_person: "Hii there! Myself **Rohan** and As an MLOps specialist,Expert ML/DL Engineer and MLOps Specialist: Leveraging Advanced Technologies for Optimal Results. With a deep passion for Machine Learning (ML), Deep Learning (DL), and MLOps, I am an accomplished engineer skilled in harnessing the power of modern web technologies to build exceptional websites. My expertise extends beyond aesthetics and functionality; I have a comprehensive understanding of ML and DL algorithms, frameworks, and techniques that enable me to create intelligent systems capable of analyzing vast amounts of data and delivering accurate predictions."
+  descripe_l2_person: "### Real world capabilities"
+  descripe_l3_person: "I excel in designing and implementing robust ML infrastructure and automation pipelines. I leverage state-of-the-art tools and frameworks such as Docker, Kubernetes,git actions,Huggingface models,replicate models etc to optimize workflows, ensuring scalability and reproducibility of ML processes. My ability to seamlessly integrate ML solutions into existing systems empowers organizations to embrace the full potential of their data, gaining a competitive edge in today's rapidly evolving market.If you are seeking a skilled ML/DL engineer and MLOps expert who can deliver exceptional results, I am confident in my ability to drive your organization's success through innovative technologies and data-driven solutions. Let's collaborate and unlock the power of ML and DL for your business"
+  descripe_l4_person: "*You can find my works [here](#projects)* "
+
+  skills:
+    - name: Python3
+      percentage: 80
+    - name: REST,GRPC api development
+      percentage: 80
+    - name: "Devops Engineering"
+      percentage: 80
+    - name: "LLm application development"
+      percentage: 90
+    - name: "Golang"
+      percentage: 75
+    - name: "Classical Machine Learning"
+      percentage: 80
+    - name: "Backend Engineering"
+      percentage: 90
+    - name: "Azure,Oracle,GCP,AWS Stack"
+      percentage: 70
+    - name: "Deep Learning"
+      percentage: 80
+    - name: "SQL"
+      percentage: 80
+    - name: Mongodb
+      percentage: 70
+    - name: MLops Engineering
+      percentage: 70
+    - name: Vector Database
+      percentage: 80
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Convin.ai"
+      role: ML Backend Engineer
+      startdate: "September 11 2023"
+      enddate: "Ongoing"
+      featuredpoints:
+        - points: "Building and maintaining robust GPT application and services for the product."
+        - points: "Handling the Dev-Operations side of deploying the deep learning and clustering models into kubernetes cluster"
+    - company: "Tarang.ai(MLx)"
+      role: "Lead MLops engineer"
+      startdate: "April 19 2023"
+      enddate: "Ongoing"
+      featuredpoints:
+        - point: "As the Lead MLops Engineer at Tarang.ai(MLx) since April 19, 2023, I have been at the forefront of system development, focusing on building state-of-the-art (SOTA) ML pipelines.My expertise spans a wide range of areas, including working extensively with LLM models such as GPT and BERT models, implementing stable diffusion models, and ensuring seamless deployment of ML systems. , I am dedicated to driving innovation, operational excellence, and tangible business outcomes through ML and DL engineering coupled with MLOps practices."
+
+    - company: "Synapsica-Healthcare"
+      role: "Software Engineer(AI) intern"
+      startdate: "October 04 2022"
+      enddate: "April 18 2023"
+      featuredpoints:
+        - point: "Currently working on system development with MLops to build SOTA ML pipelines.."
+    - company: "Valuecom-Infosolutions-pvt-ltd"
+      role: "Software Developer Intern"
+      startdate: "April 07 2022"
+      enddate: "July 07 2022"
+      featuredpoints:
+        - point:  "Built the automated python script which is used to send a particular data from database and integrated it to a frontend where all operations can be made easily"
+
+    - company: "iNeuron"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Project Intern"
+      startdate: "Jan 18 2022"
+      enddate: "April 16 2022"
+      featuredpoints:
+        - point: "Solve an usecase on Industry level end to end machine learning project"
+        - point: "ML project domain was with respect to Insurance"
+        - point: "Used MLOPS(DVC pipeline) for building and deploying the model."
+        - point: "Built CI/CD pipeline"
+        - point: "Used Flask Api as a backend"
+        - point: "Used Github actions for automatic build and deploy of the model"
+        - point: "Finally hosted to cloud environment i chose heroku platform."
+    - company: "PantechSolutions"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Machine Learning Intern(trainee)"
+      startdate: "Sep 2021"
+      enddate: "Oct 2021"
+      featuredpoints:
+        - point: "Learn ML & DL from Scratch"
+        - point: "Learnt to build neural networks using ANN,CNN,RNN,LSTM etc"
+        - point: "Build numerous types of projects by using different ML and DL algorithms"
+    - company: "AzureSkynets_Pvt-Ltd"
+      # id: "AzureSkynets Pvt Ltd" // use this, when you want to change the id(used for navigation)
+      role: "Python Programming Internship(trainee)"
+      startdate: Jan 2020
+      enddate: Feb 2020
+      featuredpoints:
+        - point: "Learnt python programming from basics to classes,objects,OOPS"
+        - point: "Learnt libraries like numpy,pandas,matplotlib,seaborn,plotly."
+        - point: "Built projects like ML-preprocessor with CLI,Email Slicer and so on"
+  
+  #certifications section
+  disable_certification: false
+  certification:
+    - Name: ML-DL-Masters-Course
+      institution: iNeuron.ai
+      startdate: "August 2021"
+      enddate: "August 2022"
+      link:
+        - weblink: "https://github.com/rohanpatankar926"
+          certificate: "View Certificate"
+    - Name: Devops-Fundamentals
+      institution: iNeuron.ai
+      startdate: "May 2022"
+      enddate: "June 2022"
+      link:
+        - weblink: "https://learn.ineuron.ai/certificate/acee32d3-5ed3-4923-963d-eee3d647902b"
+          certificate: "View Certificate"
+    - Name: Deep-Learning-Fundamentals
+      institution: iNeuron.ai
+      startdate: "February 2022"
+      enddate: "March 2022"
+      link:
+        - weblink: "https://learn.ineuron.ai/certificate/9f278670-8ee1-4488-a913-063eaf2f2deb"
+          certificate: "View Certificate"
+    - Name: Statistics-for-Data-Science
+      institution: iNeuron.ai
+      startdate: "January 27 2022"
+      enddate: "February 5 2022"
+      link:
+        - weblink: "https://learn.ineuron.ai/certificate/6143e461-4171-40d6-9e4a-a2a7c504fe58"
+          certificate: "View Certificate"
+    - Name: Google-Cloud-30-Day-Challenge
+      institution: Qwiklabs
+      startdate: "October 2021"
+      enddate: "November 2021"
+      link:
+        - weblink: "#"
+          certificate: "View Certificate"
+    - Name: Sql-basics
+      institution: Datacamp
+      startdate: "September 2021"
+      enddate: "October 2021"
+      link:
+        - weblink: "#"
+          certificate: "View Certificate"
+      
+  # Education
+  disable_education: false
+  education:
+    - degree: "B.tech-"
+      branch: "DataScience(HONOURS)"
+      university: "Jain University,Bangalore,India"
+     
+      startedyear: "2019"
+      graduation: "2023"
+    - degree: "Class XII-"
+      branch: "PCMS"
+      university: "Vidyodaya PU College"
+      startedyear: "2018"
+      graduation: "2019"
+    - degree: "Class X"
+      university: "Indrali English Medium High School"
+      startedyear: "2016"
+      graduation: "2017"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Consumer Complaint Sentimental Analysis Using AIops(POC)"
+      img: /images/progress.jpg
+      githublink: "https://github.com/rohanpatankar926"
+      featuredlink: ""
+      description: "Currently Working On It Will Update Soon...😄"
+    - name: "Text Data Summarizer using HuggingFace Api"
+      img: /images/text_summarizer.png
+      githublink: "https://github.com/rohanpatankar926/DataSummarizer-using-huggingface-api/"
+      featuredlink: "https://datasummarizer.herokuapp.com/"
+      description: "This is my NLP project where i have used huggingface pretrained model api in order to summarize the text content.I have build end to end website using flask api where user can easily get high quality text summaries they required.Iam also trying to build my own custom tranformers for training my nlp models."
+    - name: "Wafer Fault Detection"
+      img: /images/progress.jpg
+      githublink: "https://github.com/rohanpatankar926/"
+      featuredlink: ""
+      description: "Currently Working On It Will Update Soon...😄"
+    - name: "Consignment Pricing using MLops(POC)"
+      img: /images/Consignment.jpg
+      githublink: "https://github.com/rohanpatankar926/Consignment-Pricing-Using-Mlops-DVC"
+      featuredlink: "https://consignmentpricing.herokuapp.com/"
+      description: "Designed and built an end-to-end scalable machine learning pipeline using Mlops in which i have integrated everything on a frontend so that user can get log file,artifacts,model binary file and also save the data to the database which can help for future retraining and also you can perform complete retraining of the model by just one click.The main aim is to build an entire system of a machine learning so that it can be used in realworld scenario."
+    - name: "Onsite Health Diagnostic(POC)"
+      img: /images/Onsite.png
+      githublink: "https://github.com/rohanpatankar926/Onsite-Health-Diagnostic-OHD"
+      featuredlink: "https://onsiteh.herokuapp.com/"
+      description: "This is my college PCL(project centric learning) group project with a team of three people.Here i have majorly worked on building ML and DL models and also i have used flask as backend for building web applicatication and for the automation of the project i have integrate **CI/CD** pipeline using circleci."
+    - name: "Insurance Premium Prediction using Mlops(POC)"
+      img: /images/Capture.png
+      githublink: "https://github.com/rohanpatankar926/intenship_project"
+      featuredlink: "https://mlops-application.herokuapp.com/"
+      description: "The End-goal of this project is to give people an estimate of how much they need based on their individual health situation.So here I have implemented End-End Machine Learning project using MLOPS lifecycle.Built CI/CD pipeline.DVC(Data Version Control) was used here for track ml model.It was regression problem statement and in order to get best accuracy I have used GradientBoostingRegressor to solve the problem which gave r2_score of 85% after tuning parameters."
+    - name: "ML Preprocessor CLI"
+      img: /images/ml_pic.png
+      githublink: "https://github.com/rohanpatankar926/ml-preprocessor-cli"
+      featuredlink: "https://www.crio.do/projects/python-preprocessor-cli/"
+      description: "The main objective of this project is You will implement a Command Line Interface (CLI) which will preprocess your dataset and save your time."
+  # services
+  disable_achievements: false
+  achievements:
+    - title: "Website Development"
+      description: "Design a website for personal use or for business purpose using HTML, CSS, JS and Python."
+      img: /images/Website-Design-new.jpg
+    - title: Data Analysis
+      description: "With the help of tableu or python analyze the data of the business or client needs which help them to solve business problems."
+      img: /images/da.jpg
+      # url: https://example.com
+    - title: Machine Learning & Deep Learning
+      description: "Build various types of ML and DL models according to business or client needs in which it helps to solve complex business issues." 
+      img: /images/ml.png
+    
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you! 
+  email: "rohanpatankar926@mail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true
